@@ -1,9 +1,9 @@
 # Fraud-Detection-in-Financial-Transactions
 
-##Overview
+## Overview
 This project focuses on detecting fraudulent transactions in financial datasets by utilizing the XGBoost machine learning algorithm. The dataset, sourced from Kaggle's Credit Card Fraud Detection, contains over 284,807 transactions, with fraudulent cases comprising only 0.172%. This presents a significant challenge due to the class imbalance.
 
-##Features
+## Features
 Data Processing and Quality Control:
 Managed a highly imbalanced dataset by performing data cleaning, standardization.
 Applied SMOTE (Synthetic Minority Over-sampling Technique) to handle class imbalance, ensuring better detection of minority (fraudulent) transactions.
@@ -13,7 +13,7 @@ Evaluated model performance using metrics such as Recall and F1 Score.
 Achieved Recall: 1.0 and F1 Score: 0.9997273742623715, indicating effective detection of fraudulent transactions.
 
 
-##Methodology
+## Methodology
 Data Preprocessing:
 
 Cleaned missing values and standardized features.
@@ -24,7 +24,7 @@ Built and trained the XGBoost model to detect fraudulent activities.
 Used metrics like Recall and F1 Score to evaluate model effectiveness.
 
 
-##Results
+## Results
 Optimized XGBoost Model Performance:
 Recall: 1.0
 F1 Score: 0.9997273742623715
